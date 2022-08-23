@@ -84,8 +84,10 @@ namespace ConsoleUI
             Vehicle.Add(suv);
 
             foreach (var item in Vehicle)
+
             {
-                Console.WriteLine( $" Make {item.Make} , Model {item.Model} ,  Year {item.Year} ");
+                Console.WriteLine("Take a look at this, you might like it:");
+                Console.WriteLine($"Make {item.Make} , Model {item.Model} , Year {item.Year} ");
             }
 
 
